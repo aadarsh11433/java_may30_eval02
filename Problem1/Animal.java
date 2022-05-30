@@ -33,6 +33,11 @@ class Cow extends Animal{
 			cow1.habitat();
 			
 			System.out.println(cow1.legs);
+			
+			
+			Animal animal1 = new Animal();
+			
+			System.out.println(animal1.disease.viral);
 		}
  }
  
@@ -40,7 +45,7 @@ class Cow extends Animal{
            < --------------------------   Is-A relationship in java classes       ---------------------  >
  
            1. Is a relationship in java is established by extending some class to other class 
-             -- like classs Cow is being Extended here to Animal (line 11).
+             -- like classs Cow is being Extended here to Animal (line 19).
              
              -- the class that has extended to some other class is called child class or sub-class.
              and the class to which aclss is exended is  the Parent or Super Class.
@@ -57,7 +62,11 @@ class Cow extends Animal{
   < --------------------------   Has-A relationship in java classes       ---------------------  >
  
  
-      Has a relation 
+      Has a relation is a diiffernt relationship which is established when we create a reference variable of other 
+      class in same other class like above the Animal Class has a relationship with the Disease Class.
+      
+      
+      
  
  
  

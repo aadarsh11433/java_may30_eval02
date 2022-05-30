@@ -37,7 +37,7 @@ class Cow extends Animal{
 			
 			Animal animal1 = new Animal();
 			
-			System.out.println(animal1.disease.viral);
+			System.out.println(animal1.disease);
 		}
  }
  

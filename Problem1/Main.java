@@ -33,7 +33,7 @@ class ProtectedExample{
                      access modifier is Default .
       3. Private  -- only available in their respective classes 
                    -- access by only getter methods.
-      4. Protected -- only              
+      4. Protected -- only accessible by extending the paricular class to which class which holds this protected members.  
 
 
 */
